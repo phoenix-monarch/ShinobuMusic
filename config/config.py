@@ -29,9 +29,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001556355223"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001566837125"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴍɪᴋᴜ ɴᴀᴋᴀɴᴏ 宠儿")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙈𝙞𝙠𝙚𝙮 𝙓 𝙈𝙪𝙨𝙞𝙘")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1488316798").split()))
 
@@ -49,8 +49,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/psycho_association")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/devils_chats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TEAM_WIZARDZ")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/WEEBS_CHATS")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
